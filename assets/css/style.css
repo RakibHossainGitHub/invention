@@ -158,15 +158,13 @@ p {
 }
 
 .white-btn:hover {
-    background-color: transparent;
-    color: var(--primary-color);
+    background-color:var(--text-color);
+    color: var(--white-color);
     border: var(--primary-color);
-    box-shadow: 1px 1px 11px var(--white-color);
-    text-shadow:1px 1px 11px var(--white-color);
+    box-shadow: 1px 1px 5px var(--white-color);
+    text-shadow:1px 1px 2px var(--white-color);
 }
-.wrappar {
-height: 80rem;
-}
+
 .gap{
     background-color: var(--primary-color);
     height: 3rem;
@@ -562,8 +560,39 @@ background-color: rgb(240, 246, 246);
 
 /* works-end */
 /* gallery-start */
+/* .gallery-full-img{
+    display: none !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.9);
+    & img{
+    margin-top: 5rem;
+    height: 90vh;
+    width: 55%;
+    }
+    & i{
+      position: absolute;  
+      top: 6rem;
+      left: 80%;
+      font-size: 2rem;
+      color: var(--white-color);
+      cursor: pointer;
+      transition: all 0.4s linear;
+      &:hover{
+        color: var(--fourth-color);
+      }
+    }
+} */
 .gallery-imgs{
-    & div{margin-bottom: 1rem;
+    & div{
+        margin-bottom: 1rem;
         position: relative;
         transition: all 0.4s linear;
         cursor: pointer;
