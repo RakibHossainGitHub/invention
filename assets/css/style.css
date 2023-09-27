@@ -560,36 +560,6 @@ background-color: rgb(240, 246, 246);
 
 /* works-end */
 /* gallery-start */
-/* .gallery-full-img{
-    display: none !important;
-    justify-content: center !important;
-    align-items: center !important;
-    margin: 0 !important;
-    width:100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 100;
-    background: rgba(0, 0, 0, 0.9);
-    & img{
-    margin-top: 5rem;
-    height: 90vh;
-    width: 55%;
-    }
-    & i{
-      position: absolute;  
-      top: 6rem;
-      left: 80%;
-      font-size: 2rem;
-      color: var(--white-color);
-      cursor: pointer;
-      transition: all 0.4s linear;
-      &:hover{
-        color: var(--fourth-color);
-      }
-    }
-} */
 .gallery-imgs{
     & div{
         margin-bottom: 1rem;
@@ -607,7 +577,7 @@ background-color: rgb(240, 246, 246);
             text-shadow: 2px 2px 11px var(--black-color);
             transition: all 0.4s linear;
             &:hover {
-                    color: var(--primary-color);
+                    color: rgb(247, 2, 127);
                     text-shadow: 2px 2px 11px var(--white-color);
                 }
         }
@@ -622,7 +592,7 @@ background-color: rgb(240, 246, 246);
             text-shadow: 2px 2px 11px var(--black-color);
             transition: all 0.4s linear;
             &:hover{
-                color: var(--primary-color);
+                color: var(--third-color);
             text-shadow: 2px 2px 11px var(--white-color);
             }
         }
@@ -637,7 +607,7 @@ background-color: rgb(240, 246, 246);
             text-shadow: 2px 2px 11px var(--black-color);
             transition: all 0.4s linear;
             &:hover {
-                    color: var(--primary-color);
+                    color: var(--black-color);
                     text-shadow: 2px 2px 11px var(--white-color);
                 }
         }
@@ -646,22 +616,6 @@ background-color: rgb(240, 246, 246);
             object-position: center;
             object-fit: cover;
             border-radius: 5px;
-        }
-        &::before{
-            content: "";
-            position: absolute;
-            width: 95%;
-            height: 0%;
-            margin: auto;
-            border-radius: 0 0 5px 5px;
-         background: linear-gradient(rgba(3,
-            110,
-            192,0.5), rgba(0,0,0,0.3));
-            top: 0;
-            left:0;
-            right: 0;
-            transition: all 0.4s linear;
-            
         }
         &::after{
             content: "";
@@ -679,9 +633,6 @@ background-color: rgb(240, 246, 246);
                 transition: all 0.4s linear;
         }
         &:hover::after{
-            height:40% ;
-        }
-        &:hover::before{
             height:40% ;
         }
         &:hover{
@@ -837,6 +788,7 @@ background-color: rgb(240, 246, 246);
     color: var(--white-color);
     & a{
         color: var(--fourth-color);
+        transition: all 0.4s linear;
     }
    }
 }
