@@ -1,3 +1,10 @@
+// preloader
+let preloader = document.getElementById("preloader");
+window.addEventListener('load', function () {
+  preloader.style.display = 'none';
+});
+
+
 //active navebar
 let nav = document.querySelector(".navigation-wrap");
 window.onscroll = function () {
@@ -38,3 +45,5 @@ document.addEventListener("DOMContentLoaded", () => {
   counter("count3", 485, 5789, 1000);
   counter("count4", 556, 6987, 900);
 });
+
+

@@ -7,6 +7,13 @@
     margin: 0;
     padding: 0;
 }
+#preloader{
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   z-index: 10000;
+   background:rgb(241, 242, 243) url(../imgs/preloader/preloader.gif) no-repeat center center;
+}
 
 :active,
 :hover,
